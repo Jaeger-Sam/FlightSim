@@ -16,8 +16,11 @@ If attitude animations are desired, download and add this toolbox to your path.
 
 
 How to run:
+
   Assemble aircraft and simulation input data files
   
-  >> [aircraft,sim_options] = INITIALIZE_SIMULATION(IBIS_input, Sim_input); % generates aircraft, simulation data structures
-  >> [sim_data_out] = RK4(aircraft,sim_options); % integrates trajectory
-  >> SIMULATION_PLOTS(sim_data_out,aircraft,sim_options) % plots data
+  [aircraft,sim_options] = INITIALIZE_SIMULATION(IBIS_input, Sim_input); % generates aircraft, simulation data structures
+  
+  [sim_data_out] = RK4(aircraft,sim_options); % integrates trajectory
+  
+  SIMULATION_PLOTS(sim_data_out,aircraft,sim_options) % plots data
