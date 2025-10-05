@@ -4,7 +4,7 @@
 Features:
   Runge-Kutta 4 numerical routine,
   quaternion attitude solution,
-  Von Karman turbulence model,
+  Dryden turbulence model,
   1976 standard atmosphere,
   WGS84 gravity model,
   propeller model including moments generated and lift enhancement,
