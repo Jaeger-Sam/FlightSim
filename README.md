@@ -13,7 +13,7 @@ Features:
   Attitude animation plug in.
 
 If attitude animations are desired, download and add this toolbox to your path.
-
+https://github.com/Ro3code/aircraft_3d_animation
 
 How to run:
 
